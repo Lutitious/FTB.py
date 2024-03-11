@@ -17,3 +17,11 @@ This has been tested with FTB Academy imported into Prism Launcher.
 This script is a very quick and dirty script and is not very user friendly. It is also not very robust and will likely break multiple times. It is also not very efficient, It is also not very well tested and will not work for all modpacks.
 
 If you would like to improve this script, feel free to make a pull request.
+
+## Usage
+
+```bash
+    git clone https://github.com/Lutitious/ftb-downloader.git
+    cd ftb-downloader
+    python3 main.py
+```
