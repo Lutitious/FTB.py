@@ -93,7 +93,7 @@ def getModpackFiles():
     # Convert the minecraft and modloader versions to the format "modLoaders": [{ "id": "forge-", "primary": true }], "version": "1.7.10"
     print("Creating manifest.json...")
     modloader = {}
-    if modloader == "neoforge":
+    if modloaderName == "neoforge" and mcVersion == "1.20.1":
         modloader["id"] = modloaderName + "-" + mcVersion + "-" + modloaderVersion
     else:
         modloader["id"] = modloaderName + "-" + modloaderVersion
